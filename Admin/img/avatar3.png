@@ -1,0 +1,716 @@
+	--------------------------------------------------
+	 ReadMe File for Microsoft Money 2006 Version 15.0
+		      	     July, 2005
+        --------------------------------------------------
+			
+	    (c) Copyright Microsoft Corporation, 2005
+
+
+For up-to-date information on Microsoft Money, visit Money on the Web at 
+http://g.msn.com/1MCUSENREDIRECTORS/2006_0253.
+
+-------------------------
+How to View This Document
+-------------------------
+
+To view the ReadMe.txt file on screen in Notepad, maximize the 
+Notepad window.
+
+To print the ReadMe.txt file, open it in Notepad or another word 
+processor, and then click Print on the File menu.
+
+
+--------
+CONTENTS
+--------
+
+  1: Installing Money 2006 Requires Hard Disk Space On Windows Drive
+  2: Running Money 2006 And Earlier Versions Of Money On The Same Computer
+  3: Money Not Compatible With Beta Versions of Operating Systems or 
+      Beta Versions of Internet Explorer 
+  4: Installing Money 2006 on Computers with Anti-Virus Services
+  5: File Size And Money 2006
+  6: Internet Connections Require WinSock-Compliant ISP
+  7: Restart Windows After Upgrading Internet Service Provider (ISP)
+  8: Internet Explorer Security Settings
+  9: Internet Options May Cause Money 2006 Areas To Wash Out 
+ 10: Money 2006 On Windows 98 Hangs If Modem Not Plugged In To Phone Line
+ 11: Windows 98 Issues with U.S. Robotics ISDN Modem and Regular Modem
+ 12: Disable Remote WinSock If You Dial Up Directly To The Internet
+ 13: Printer Drivers 
+ 14: Printing Partial Sheets Of Checks On Sheet Feed Printers
+ 15: Requirements for Tour and Instructional Videos
+ 16: Display Color Settings
+ 17: How To Obtain the Euro Currency Symbol
+ 18: Quicken Versions Supported By The Quicken Conversion Wizard 
+ 19: Canadian Users of Money 2006 Standard Need to Use Canadian Settings
+ 20: Electronic Payments are Entered into the Account Register Using the Process Date
+ 21: Money for Pocket PC Requires Upgrade to Money 2006 for Pocket PC
+ 22: MSN Money Synchronization Does Not Include Credit Card Bills Categorized as
+        Transfers
+ 23: Important Information about Online Services
+ 24: Unable to Start Money after Upgrading to Windows XP
+ 25: Money May Conflict with DirecPC Satellite Internet Connection Software
+ 26: Money Is Unable to Verify Your Online Sign-In Name
+ 27: Money May Conflict with Firewall Software
+ 28: GainsKeeper Data Display Requires Java Virtual Machine
+ 29: Problems Installing When My Documents Folder Is Redirected to Network Share
+
+
+
+
+__________________________________________________________________   
+
+1: Installing Money 2006 Requires Hard Disk Space On Windows Drive
+
+When you install Money 2006, Money requires that you install 
+Internet Explorer 6.0 SP1, if it is not already on your computer. 
+This requires up to 60 MB of disk space on the drive where Windows is 
+installed. After installing Internet Explorer, you can choose 
+the drive on which you want to install Money 2006. 
+
+NOTE: If you already have Internet Explorer 6.0 SP1, 
+installing Money 2006 will require less space.
+
+__________________________________________________________________   
+
+2: Running Money 2006 And Earlier Versions Of Money On The Same Computer 
+
+In general, Money has limited support for a side-by-side installation of 
+Money 2006 with earlier versions of Money. Before installing Money 2006, make 
+sure you have the CD or installation source for the previous version available. If 
+you want to use Money 2006 while also using another version of Money, 
+please read the following:
+
+
+A.  To install Money 2006 on the same computer with Money 2005:
+
+Note: If Money 2005 is installed on your computer, the default installation 
+folder is C:\Program Files\Microsoft Money 2005.
+
+1.  Install Money 2006 in a different folder than the earlier 
+version of Money.
+2.  Make a copy of your Money 2005 data file.
+3.  Click the Microsoft Money 2006 Start menu icon to start Money 2006.
+
+Money creates a backup file named MyMoney.m14 (if your data file is named 
+MyMoney.mny) and Money upgrades your data file. You now have two backup files 
+you can use in Money 2005 if you choose. In addition to the copy you made 
+in step 2, you have the MyMoney.m14 file that you can open or copy and rename.
+
+
+B.  To install Money 2006 on the same computer with Money 2004:
+
+Note: If Money 2004 is installed on your computer, the default installation 
+folder is c:\Program Files\Microsoft Money.
+
+1.  Install Money 2006 in a different folder than the earlier 
+version of Money.
+2.  Make a copy of your Money 2004 data file.
+3.  Click the Microsoft Money 2006 Start menu icon to start Money 2006.
+
+Money creates a backup file named MyMoney.m12 (if your data file is named 
+MyMoney.mny) and Money upgrades your data file. You now have two backup files 
+you can use in Money 2004 if you choose. In addition to the copy you made 
+in step 2, you have the MyMoney.m12 file that you can open or copy and rename.
+
+C.  To use the earlier version of Money, e.g. Money 2004:
+
+The first time you start Money 2004 after installing Money 2006: 
+
+1.  Click the Microsoft Money 2004 Start menu icon to start Money 2004.
+2.  When the Password dialog box appears, click Cancel.
+3.  Click OK.
+4.  In the Open a File dialog box, select the Open/Work with an existing Money 
+    file option, and then click Next.
+5.  Browse to the Money backup file created by Money 2006 (e.g. My Money.m12).
+6.  Select this file and click Open.
+
+
+Once you have associated a Money data file with each version of Money, you can start the 
+version you want by clicking the appropriate Start menu icon.
+
+C.  To uninstall Money:
+
+1.  Use Add and Remove Programs to uninstall the version of Money you want to remove.
+2.  If you uninstall either version, you may have to reinstall the version remaining on 
+    your computer.  Make sure you have the original installation CD before uninstalling 
+    either version.
+
+D.  Other Notes:
+
+1.  Do not double-click files to open Money.  Use the desktop icons or the Start menu 
+    shortcuts, so you know which version you are opening. You will need to associate the 
+    Money files with the correct version of Money first. Otherwise, you will get the 
+    password dialog box when the older version of Money tries to open an upgraded file.
+2.  You cannot use different versions of Money for the same Money data file.
+3.  You cannot run both versions of Money at the same time.
+4.  Microsoft will not support more than two versions of Money installed at one time.
+
+__________________________________________________________________ 
+
+3: Money Not Compatible With Beta Versions of Operating Systems or 
+Beta Versions of Internet Explorer 
+
+Please upgrade to the released version of your operating system or 
+Internet Explorer before using Money.
+
+__________________________________________________________________   
+
+4: Installing Money 2006 on Computers with Anti-Virus Services.
+
+Some anti-virus services may interfere with Microsoft Money setup.  You may want to
+turn off any anti-virus services before installing Money.  Be sure to turn it back on 
+when Money setup is complete.
+
+__________________________________________________________________   
+
+5: File Size And Money 2006
+
+The file format used by Money 2006 lets the Money team create 
+powerful features such as Advisor FYI, the Lifetime Planner, 
+and the Monthly Report (all available for Deluxe users). You might 
+notice that your converted Money 2006 file is bigger than your old 
+Money file. 
+
+However, you'll find that Money's compressed backup files are much smaller 
+than your regular file. So if you need to take your data file to 
+another computer, use the File/Backup command.
+
+__________________________________________________________________   
+
+6: Internet Connections Require WinSock-Compliant ISP 
+
+Money 2006 allows you to make many connections to the Internet to 
+gather information and advice about your finances. To connect to 
+the Internet, you need an Internet service provider (ISP) that 
+works directly with the 32-bit WinSock included with Windows 98, 
+Windows 2000, Windows ME, and Windows XP. 
+
+Most full-service Internet providers (those not requiring custom 
+software to access their service) will support the 32-bit WinSock. 
+If you have questions about your Internet connection 
+compatibility, ask your ISP if it supports the Windows 32-bit 
+WinSock. 
+
+__________________________________________________________________   
+
+7: Restart Windows After Upgrading Internet Service Provider (ISP)
+
+If you install new software from your ISP, you should restart 
+Windows before attempting to make an Internet connection in Money. 
+Failure to restart after upgrading your ISP software may cause 
+miscellaneous errors in Money 2006.
+
+__________________________________________________________________   
+
+8: Internet Explorer Security Settings
+
+The following security settings are recommended when making 
+Internet connections in Money.
+
+1. On the Tools menu in Money, click Settings, and then click Browser settings. 
+
+2. Click Connection Settings.
+
+3. On the Security tab, select the Internet zone (globe icon) 
+
+4. In the Security level for this zone area, click Default Level, and then 
+move the slider to Medium (most secure).
+
+Note: Internet Explorer 6.0 SP1 or later is required to run 
+Money, but Money still allows you to use your default browser.
+
+__________________________________________________________________   
+
+9: Internet Options May Cause Money 2006 Areas To Wash Out 
+
+If you modify your Internet Explorer Multimedia settings and clear 
+the Show Pictures check box, several places in Money may appear 
+"washed out" and the text may be unreadable. Follow these steps to 
+resolve the problem:
+
+1. On the Tools menu, click Connection Settings.
+
+2. Click the Advanced tab.
+
+3. Scroll down until you see the Multimedia section.
+
+4. Check the Show pictures box.
+
+__________________________________________________________________   
+
+10: Money 2006 On Windows 98 Stops Responding If Modem Not Plugged In To Phone Line
+
+Money may stop responding in the Initializing and Contacting Server portion 
+of the Call Progress dialog box. This occurs if you are using 
+Windows 98 and try to make a direct modem connection in Money 2006 
+while the modem is not connected to a phone line. You cannot use 
+any other Windows 98 modem application.
+
+The solution is to restart Windows and make sure that the modem 
+is plugged in to the phone line before attempting to make a direct 
+modem connection.
+
+__________________________________________________________________   
+
+11: Windows 98 Issues with U.S. Robotics ISDN Modem and Regular Modem
+
+If you are using Windows 98 and have a U.S. Robotics 128k ISDN 
+adapter installed, Money 2006 may stop responding or return the following 
+error message when you try to connect to your online banking 
+service provider:
+
+   Money could not complete the call due to a problem with your 
+   modem installation.
+
+For information on how to troubleshoot this error, refer to the 
+Microsoft Knowledge Base article, "Money: Online Banking Hangs 
+with U.S. Robotics ISDN Adapter Installed." This article is 
+available at http://support.microsoft.com/support/kb/articles/q160/0/51.asp.
+
+__________________________________________________________________   
+
+12: Disable Remote WinSock If You Dial Up Directly To The Internet
+
+If you are establishing dial-up connections directly to the 
+Internet (using an Internet service provider or a dial-up connection 
+through MSN), you need to disable Remote WinSock. You may not need 
+to disable Remote WinSock if you are dialing into a LAN or using a 
+corporate intranet. Consult your network administrator.
+
+1. Click Start, point to Settings, and then click Control Panel.
+2. Double-click WinSock Proxy Client.
+3. Clear the Enable WinSock Proxy Client check box.
+
+__________________________________________________________________   
+
+13: Printer Drivers 
+ 
+If you experience problems printing in Money 2006, you should get 
+an updated driver from the printer manufacturer. This is often the 
+first step in troubleshooting printing problems.
+
+__________________________________________________________________   
+
+14: Printing Partial Sheets Of Checks On Sheet Feed Printers
+ 
+Money defines a partial sheet of checks as when you have removed 
+at least one of the checks from a single sheet prior to loading 
+the sheet of checks into the printer. Money prints partial sheets 
+of checks in landscape mode. (This orientation is similar to how 
+you print an envelope.)
+
+Printing partial sheets of checks (single-sheet style) is not 
+supported by all laser or inkjet printers. Due to the feed 
+mechanisms of some printers, it is difficult to align and print on 
+partial sheets of checks. 
+
+The following printers have been tested and shown to have problems
+printing partial sheets of checks in Money:
+   
+   Apple Color LW 12/660
+   Canon Bubble-Jet BJC 4550
+   Canon Bubble-Jet BJC-610
+   Epson Stylus 1520
+   Epson Stylus 800
+   Epson Stylus Color Esc/P 2
+   HP Color Laser Jet 5
+   HP LaserJet 5000
+   HP LaserJet 6P
+   HP LaserJet Indra
+   HP LaserJet 4MV
+   IBM 4019 Laser Printer
+   Lexmark ExecJet IIC 4076
+   Tektronix Phaser 360
+
+If your printer has difficulty feeding partial sheets of checks in landscape 
+mode, you can order Laser Voucher checks that never have partial 
+sheets. You can also print Laser Standard or Laser Wallet checks 
+in batches of three. 
+
+Depending on the feed mechanism of the printer, the following 
+method might work to feed partial check sheets: 
+
+1. Load the partial sheet into the printer as if it were a full 
+   sheet. Push the sheet all the way into the tray. 
+
+2. On the File menu, click Print Checks. 
+
+3. Verify that the number of checks to print equals the number of 
+   checks remaining on your partial sheet. If the number of checks 
+   to print is incorrect, follow these steps: 
+
+   a. Click Selected Checks. 
+
+   b. Select up to the number of checks remaining on the partial 
+      sheet. 
+
+   c. Click OK. 
+
+4. Make sure to enter the correct check number for the first 
+   check. 
+
+5. In answer to the question "How many checks are on the first 
+   page?", click Three. This causes Money to print in portrait 
+   orientation.
+
+__________________________________________________________________   
+
+15: Requirements for the Tour and Instructional Videos
+
+ - The Money Tour is not available in all versions of Money. It is
+   not available if you downloaded the Trial version of Money 2006 
+   from the Web or a CD Trial version. If Money came pre-installed 
+   on your computer, it may or may not be available, depending on 
+   the version of Money installed by your computer manufacturer. 
+
+ - To view the videos, you must have Internet Explorer 6.0 and the
+   Macromedia Flash player installed. Money installs Internet Explorer 6.0 automatically
+   when you install Money, but only if you have not installed Internet Explorer 6.0
+   or a later version already. Flash is installed along with Internet Explorer 6.0.
+
+ - If you have Internet Explorer 6.0 or later but have removed Flash from your computer, 
+   Money 2006 does not install Flash automatically. You can download Flash 
+   from this website: http://www.macromedia.com/software/flash/
+
+ - If you have manually removed Internet Explorer, you'll need to reinstall it.
+   You can do so by running the IE6setup.exe program from the IE folder 
+   on the Money CD-ROM.
+
+ - Your Internet Explorer security settings should be set to the 
+   default of Medium or lower to run the Tours for the first 
+   time.
+
+ - The videos included with Money are best experienced when your speakers are 
+   turned on and the volume is set appropriately.
+
+____________________________________________________________   
+
+16: Display Color Settings
+ 
+While Money 2006 contains some color scheme options that may work 
+in 16-color mode, Money 2006 was designed to work in 256-color 
+mode or higher.
+
+The Money 2006 multimedia tours and Help videos are designed to 
+work in 256-color mode or higher. If you run these in 16-color 
+mode, the tours and videos may run slowly or may be illegible. For 
+this reason, it is highly recommended that the tour and videos 
+never be run using 256-color mode or higher.
+
+To check or change your color mode, follow these steps:
+
+1. Click Start on the Windows taskbar, point to Settings, and then click 
+   Control Panel.
+
+2. Double-click Display.
+
+3. Click the Settings tab.
+
+4. Check the Color Palette setting to see which mode your computer 
+   is running in. If your video card supports 256 colors, you'll 
+   see that option in the Color Palette drop-down list.
+
+5. Choose 256 Color from the list, and then click OK. 
+   Windows will ask if you want to restart your computer so the 
+   change can take effect.  Click Yes.
+
+__________________________________________________________________   
+
+17: How To Obtain the Euro Currency Symbol
+
+If you enable Money 2006 to use Euro currency, Money may not 
+correctly display the Euro currency symbol. For more information 
+on this issue, refer to the Microsoft Knowledge Base article, 
+"Money 2002: How to Obtain the Euro Symbol." This article is 
+available at 
+http://support.microsoft.com/support/kb/articles/q156/1/81.asp. 
+
+__________________________________________________________________   
+
+18: Quicken Versions Supported By The Quicken Conversion Wizard
+
+Money can convert data files from Quicken versions 4, 5, 6, 7,
+8, 9, 10, 11, 12, and 13 (Quicken 2004). 
+
+_________________________________________________________________   
+ 
+19: Canadian Users of Money 2006 Standard Need to Use Canadian Settings
+
+Attention Canadian Users of Money 2006 Standard: If you create a new file in 
+Money 2006, it’s important that you run Money with Canadian settings before 
+creating the new file, in order to start with the appropriate set of default 
+categories.  If you are already using Money, you will know you are using U.S. 
+Settings if you have a Taxes menu in the navigation bar across the top of the 
+screen.  (See below for more information on Canadian Taxes.)  
+Please refer to Help for more information on 
+how to switch to Canadian Settings.  Make sure that you click File, point to New, 
+and then click New File to create a new file after switching to Canadian Settings.  
+
+To obtain Canadian Tax functionality:
+
+1. click Banking.  
+
+2. On the Account Tools menu, click Categories & Payees. 
+
+3. To select the Tax Forms and Tax Lines that are associated with each category, in 
+   the left pane, click Set up tax categories. 
+  
+When you are ready to do your taxes, click Export to Tax Software on the File menu.
+
+____________________________________________________________________   
+
+20: Electronic Payments are Entered into the Account Register Using the Process Date
+ 
+Money 2006 enters electronic payments into the account register using the 
+process date. After this date, payments can no longer be canceled. However, the 
+funds may not be withdrawn on this date, depending on the payment method used by your 
+financial institution or bill payment provider.
+ 
+If you would prefer not to have Money use the processing date for entering 
+scheduled electronic payments into the account register, do the following:
+1. On the Tools menu, click Settings.
+2. Click Online service settings.
+3. Clear the "Enter electronic payments in the register with the processing date" check box.
+4. Click OK. 
+All future payments scheduled by your financial institution or bill payment provider 
+will show in the account register with either the due date, or the date that funds were 
+withdrawn from your account, whichever is earlier.
+ 
+ 
+Note: This date may be later than the date when a payment may be canceled. To see the 
+processing date, right-click the payment and select Payment Status. The processing 
+date will be displayed. Unchecking this option does not change the date of previous 
+transactions.
+
+____________________________________________________________________   
+
+21: Money for Pocket PC Requires Upgrade to Money 2006 for Pocket PC
+
+If you use Money for Pocket PC and synchronize it with your desktop Money file, 
+you need to upgrade Money for Pocket PC so that it will work correctly with desktop
+Money 2006.
+
+Note: you may also need to upgrade your Pocket PC operating system. Money for
+Pocket PC will only run on the Pocket PC 2002 & 2003 operating systems. To upgrade, contact
+the manufacturer of your device.
+
+To install or upgrade Money for Pocket PC:
+
+1.  Go to the folder where you installed Microsoft Money 2006. (By default, the
+folder is C:\Program Files.)
+
+2.  Click Microsoft Money, and then click Money for Pocket PC.
+
+3.  Double-click setup.exe, and then follow the instructions on the screen.
+
+You can download a free copy of Money for Pocket PC on the Pocket PC website:
+http://www.microsoft.com/mobile/pocketpc/default.asp.
+____________________________________________________________________   
+
+22: MSN Money Synchronization Does Not Include Credit Card Bills Categorized as       
+    Transfers
+
+In Money 2006, you can see your bills and deposits online if you use MSN Money
+Synchronization.  Many people categorize credit card bills as transfers from one account to 
+another.  MSN Money Synchronization does not include transfers so while you will see credit 
+card bills, investment purchase bills, or any other bills or deposits that you have categorized 
+as transfers, they will not be categorized as transfers on the MSN Money website.
+
+____________________________________________________________________   
+
+23: Important Information about Online Services
+
+
+In Money 2001 and earlier versions, some financial institutions used an older
+format to exchange data. These financial institutions are listed below. (If your
+bank is not on the list, your services will not be affected, and you can disregard
+this section).
+
+In Money 2006, all of the institutions listed below are upgrading to the newest
+data exchange format called OFX.  This upgrade will occur when you accept an
+online service update from the financial institution. The upgrade is necessary
+if you are upgrading from Money 2001 or earlier and if you want to use direct 
+connection services with your bank or brokerage in Money 2006. 
+
+Note: If you do accept this upgrade in Money 2006 you will be unable to continue 
+using direct services in Money 2001 with this bank.
+
+The following banks will be upgrading to OFX for Money 2006:
+
+Centura Bank
+Citizens Bank - Business
+Citizens Bank - Consumer
+Colonial Bank
+Comerica Bank
+Commerce Bank, NA
+Commercial Federal Bank
+Eastern Bank
+First Citizens Bank - NC, VA, WV
+Firstar
+Fleet Online Banking (Formerly BankBoston PC Banking)
+Huntington - Old
+IronStone Bank
+JPMorgan Chase Bank
+JPMorgan Chase Bank (Texas)
+KeyBank
+LaSalle Bank NA
+M & T Bank
+Mellon
+National Bank of Arizona
+National Penn Bank
+Nevada State Bank
+Smith Barney - Transactions
+SouthTrust Bank
+Spectrum Connect/Reich & Tang
+Standard Federal Bank
+SunTrust
+The Laredo National Bank
+Union Bank of California
+US Bank
+Vectra Bank Colorado
+Wells Fargo
+Zions Bank
+zWachovia
+
+____________________________________________________________________   
+
+24: Unable to Start Money after Upgrading to Windows XP
+
+You may receive an error when you attempt to start Money after you install the 
+Microsoft Windows XP operating system. 
+
+To resolve this issue, use the Program Compatibility Wizard in Windows XP to select 
+a compatibility mode for Money.
+1.  Click Start, point to Programs or All Programs, point to Accessories, and then click 
+	Program Compatibility Wizard.
+2.  Click Next.
+3.  Click I want to choose from a list of programs, and then click Next to see a list of 
+	programs that are currently installed on your computer. 
+4.  In the Select a program list, click Microsoft Money, and then click Next.
+5.  Under Select a compatibility mode for the program, click a compatibility mode, 
+and then click Next. For example, select Microsoft Windows 98/Windows ME or Do not 
+apply a compatibility mode.
+6.  In the Select display settings for the program page of the wizard, click Next.
+7.  In the Test your compatibility settings page, click Next to test Money with 
+	the new compatibility settings. 
+8. If Money starts successfully, proceed to step 9.  If you receive an error message, 
+	follow these steps:
+	a.	Click OK in response to the error message.
+	b.	Click No, try different compatibility settings, and then click Next.
+	c.	Repeat steps 5 through 7 to select and test a different compatibility 
+	mode with which to run Money. 
+When Money starts successfully by using the compatibility mode that you specify, 
+proceed to step 9. 
+9.  Switch to the Program Compatibility Wizard, click Yes, set this program to 
+always use these compatibility settings, and then click Next.
+10.  In the Program Compatibility Data page, specify whether or not you want to 
+send program compatibility information to Microsoft, and then click Next.
+11.  Click Finish.
+
+____________________________________________________________________   
+
+25: Money May Conflict with DirecPC Satellite Internet Connection Software.
+
+If you use DirecPC, you may receive the following error message:
+    Unable to initialize a required Money component
+This error is a result of an incompatibility between Money and DirecPC. 
+To resolve this problem, you must uninstall Money, uninstall the DirecPC 
+program, reinstall Money, and then reinstall the DirecPC program.
+
+For more information about how to uninstall DirecPC software, consult the 
+product documentation, contact DirecPC Technical Support at 1.800.347.3272,
+or visit the DirecPC Web site at http://www.direcpc.com.
+
+____________________________________________________________________   
+ 
+26: Money Is Unable to Verify Your Online Sign-In Name
+
+When you attempt to sign in to Money on the Passport Network, you may receive an error message similar to: 
+
+"Your sign-in information could not be verified. 
+Go online or select the Work offline checkbox, and then reenter your sign-in information." 
+
+This issue can occur when you set the Privacy setting in Internet Explorer to High or 
+Block All Cookies. 
+
+To resolve this issue, make sure that you are connected to the Internet. If that does not 
+resolve the issue, follow these steps.
+
+NOTE: Because there are several versions of Windows, the following steps may be 
+different on your computer. If they are, please consult your product documentation to 
+complete these steps.
+
+Allow Cookies in Internet Explorer 
+1.	Start Internet Explorer.
+2.	On the Tools menu, click Internet Options.
+3.	Click the Privacy tab.
+4.	Drag the slider to Medium.
+5.	Click Apply, and then click OK.
+
+More Information:
+A cookie is a file that is created by an Internet site to store information on your computer,
+such as your preferences. For example, if you inquire about a flight schedule at an 
+airline's website, the site might create a cookie that contains your itinerary or a record 
+of the pages that you looked at within the site that you visited. The information in the 
+cookie can help the site customize the view for you the next time that you visit. 
+
+____________________________________________________________________   
+
+27: Money May Conflict with Firewall Software
+
+When you attempt to download online stock quotes in Microsoft Money, you may receive 
+an error message similar to: 
+
+"Money was unable to connect to the online quotes server. Check your Internet connection 
+and try the operation again." 
+
+This behavior can occur if third-party firewall software such as Norton Personal Firewall 
+or Zone Labs' ZoneAlarm is installed on your computer. To resolve this behavior, change 
+the settings of your firewall software product to give programs such as Money 
+permission to download without interference. Consult the firewall software help system 
+or documentation to find out more.
+
+For more information about Norton Personal Firewall, visit the following Symantec website at:
+http://www.symantec.com/sabu/nis/npf/supportmenu.html.
+
+For more information about ZoneAlarm, visit the following Zone Labs website at: 
+http://www.zonelabs.com/services/support.htm.
+
+____________________________________________________________________   
+
+28: GainsKeeper Data Display Requires Java Virtual Machine
+ 
+The GainsKeeper site uses a Java applet to display your portfolio data. Java applets are 
+run by your browser's Java Virtual Machine. If you see a blank rectangle or an error 
+message saying "Java applet can't initialize,"  your browser may not have Java features 
+enabled, or Java may not be installed.
+
+To enable Java features in your browser, check your browser settings. Steps for this 
+vary. In Internet Explorer 6.0, on the Tools menu, click Internet Options, and then click the 
+Advanced tab. Scroll down to Microsoft VM, and select the check box for "JIT compiler for 
+virtual machine enabled." 
+
+If the Microsoft VM options are not present, you can download the Java Runtime Environment 
+from: http://javashoplm.sun.com/ECom/docs/Welcome.jsp?StoreId=22&PartDetailId=j2re-1.4.2_08-oth-JPR&SiteId=JSC&TransactionId=noreg. 
+If your computer does not use Windows XP, you can download the JRE software from GainsKeeper 
+by going to https://money.gainskeeper.com/ab_faq.aspx?#jvm.
+
+After you install the Java Runtime Environment, on the Internet Explorer Tools menu, click 
+Internet Options, and then click the Advanced tab. Find the Java submenu options and select 
+the check box with text similar to: “Use Java 2 <version> for <applet> (requires restart).” 
+
+____________________________________________________________________   
+
+29: Problems Installing When My Documents Folder Is Redirected to Network Share
+
+Users who redirect their My Documents folder to a shared network directory may be unable
+to install Money 2006 when their computer is disconnected from the network. Money uses
+My Documents as its default location for user data files. Although users can specify
+a different location, Money may freeze while attempting to find the My Documents folder
+during initial installation. The solution is to restore the network connection.
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

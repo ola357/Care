@@ -1,0 +1,43 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 29, 2018, 5:14:23 PM
+    Author     : Excel-Brightlink
+*/
+
+.textWithblurringBg {
+    widows: 200px;
+    height: 187px;
+    display: inline-block;
+    margin: 4px;
+    position: relative;
+}
+
+.textWithblurringBg img{
+    widows: 100%;
+    height: 100%;
+    border-radius: 4px;
+    transition: transform .2s;
+}
+
+.textWithblurringBg:hover img{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.textWithblurringBg :not(img){
+position: absolute;
+top: 30%;
+z-index: 1;
+color: #fff;
+text-align: center;
+width: 100%;
+}
+
+.textWithblurringBg h3{
+top: 50%;
+}
+
