@@ -2,7 +2,14 @@
  const express= require('express');
  const router = express.Router();
  const Joi = require('joi');
- const nodemailer = require('nodemailer');
+ const nodemailer  = require('nodemailer');
+const sendgridTransport  = require('nodemailer-sendgrid-transport');
+
+const transporter  =  nodemailer.createTransport(sendgridTransport({
+    auth:{
+        api_key: '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'
+    }
+}));
  
  //const path = require('path');
 
@@ -42,51 +49,35 @@
    res.send(liveIns);
     //res.render('index');
   }); */ 
-  router.get('/', async (req, res) => {
+  router.post('/', async (req, res) => {
   
-  const { error } = validateInput(req.query); 
+  const { error } = validateInput(req.body); 
   if (error) return res.status(400).send(error.details[0].message);
   
     let liveIn = new LiveIn( {
-      firstname: req.query.firstname,
-      lastname: req.query.lastname,
-      phone: req.query.phone,
-      email: req.query.email,
-      date: req.query.date,
-      time: req.query.time
+      firstname: req.body.firstname,
+      lastname: req.body.lastname,
+      phone: req.body.phone,
+      email: req.body.email,
+      date: req.body.date,
+      time: req.body.time
 
     });
     liveIn = await liveIn.save();
-//send an email
-/* let transporter = nodemailer.createTransport({
-  service: 'yahoo',
-  auth: {
-    user: 'jiburua@yahoo.com',
-    pass: '10million'
-  }
-});
 
-let mailOptions = {
-  from: 'jiburua@yahoo.com',
-  to: req.query.email.toString(),
-  subject: 'Essential Homecare',
-  text: 'we ready to ball!'
-};
-
-transporter.sendMail(mailOptions, function(error, info){
-  if (error) {
-    console.log(error);
-  } else {
-    console.log('Email sent: ' + info.response);
-  }
-});
- */
-//res.send(liveIn);
     let fname = liveIn.firstname;
     let lname = liveIn.lastname;
     let mail = liveIn.email;
     let msg = "Thank you for requesting our service";
     let txt = "A Customer representative will contact you shortly";
+
+await transporter.sendMail({
+  to: mail,
+  from: 'no-reply@excel.com',
+  subject: 'Thank You',
+  html: '<h5>Success</h5>'
+
+})    
     res.render('display', {
       msg: msg,
       txt: txt,
@@ -103,7 +94,7 @@ transporter.sendMail(mailOptions, function(error, info){
     res.send(liveIn);
   }); */
 
-  router.post('/', async (req, res) => {
+  /* router.post('/', async (req, res) => {
     const { error } = validateInput(req.query); 
     if (error) return res.status(400).send(error.details[0].message);
   
@@ -114,7 +105,12 @@ transporter.sendMail(mailOptions, function(error, info){
     liveIn = await liveIn.save();
     res.send(liveIn); 
     //res.send(req.body);
-  });
+    console.log(req.query);
+    console.log("########################");
+    console.log(req.body);
+    res.send("hello");
+  }); */
+  
 
   router.put('/:id', async (req, res) => {
     const { error } = validateInput(req.body); 
@@ -159,11 +155,11 @@ transporter.sendMail(mailOptions, function(error, info){
 
 router.get('/form2', async (req, res)=>{
 
-  const { error } = validateInput(req.query); 
+  const { error } = validateInput(req.body); 
   if (error) return res.status(400).send(error.details[0].message);
   
     let liveIn = new LiveIn ({
-      firstname: req.query.firstname,
+      firstname: req.body.firstname,
       lastname: req.query.lastname,
       phone: req.query.phone,
       email: req.query.email
@@ -234,6 +230,7 @@ router.get('/form3', async (req, res)=>{
       let mail = liveIn.email;
       let msg = "Thank you for requesting our service";
       let txt = "A Customer representative will contact you shortly";
+      
   
       res.render('display', {
         msg: msg,

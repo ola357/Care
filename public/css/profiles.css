@@ -4,7 +4,7 @@
 .can{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 16px;
-    margin: 4px;
+   
 }
 .book-me-buttons{
     margin-bottom: 10px;
@@ -13,3 +13,28 @@
 .modal-can{
     margin-top: 5%
 }
+.foo{
+    /* The image used */
+    background-image: url("/public/images/housekeepers-photos/3.jpg");
+    
+    /* Add the blur effect */
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+    
+    /* Full height */
+    height: 30vh; 
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* .foo{
+      background-color: aqua;
+      height: 300px;
+      width: 400px;
+  } */
+  .wrap{
+      display: flex;
+      flex-wrap: wrap;
+  }
